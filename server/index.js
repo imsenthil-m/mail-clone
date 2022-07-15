@@ -2,7 +2,7 @@
 const express = require('express');
 
 const app = express();
-const port = process.env.PORT || 9001;
+const port = process.env.PORT || 5000;
 const PROD = process.env.NODE_ENV === 'production';
 const routes = require('./route');
 const bodyParser = require('body-parser');
