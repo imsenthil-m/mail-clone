@@ -4,7 +4,7 @@ const HTMLWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 
-const PROD = false;
+const PROD = true;
 const DEV = !PROD;
 
 module.exports = {

@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 
-const PROD = false;
+const PROD = true;
 const DEV = !PROD;
 
 module.exports = {
