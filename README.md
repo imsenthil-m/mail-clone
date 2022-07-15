@@ -4,7 +4,7 @@ To clone in memory (json files in server) mail functionalities like Componse Mai
 PS: This mail functionalities are not user specific (No login required, common mail platform for everyone)
 
 ### FYI
-  This does not have fancy UI designs, i tried to get the basic functionality without validations, notifications, etc. with given time constraints
+  This app is purely for demonstration, i tried to get the basic functionality without validations, notifications, etc. with given time constraints
   It is hosted in codesandbox, so i can't assure if the node server will be running all the time. However this repo can cloned and run locally
   #### Steps to run locally
   1) clone the repo
