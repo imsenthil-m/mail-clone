@@ -10,7 +10,7 @@
     "start:dev": " 'npm run start:client' 'nodemon --exec npm run start:server'",
     "build:client": "node --max_old_space_size=460 webpack --config ./webpack.client.js",
     "build:server": "node --max_old_space_size=460 webpack --config ./webpack.server.js",
-    "start": "node --max_old_space_size=2560 npm run build:client && npm run build:server && node server.bundle.js",
+    "start": "node --max_old_space_size=2560 npm run build:client && npm run build:server && node server/index.js",
     "heroku-prebuild": "npm install --dev --production=false"
   },
   "author": "Senthilkumar Manoharan",
