@@ -10,7 +10,8 @@
     "start:dev": " 'npm run start:client' 'nodemon --exec npm run start:server'",
     "build:client": " NODE_ENV='production' webpack --config ./webpack.client.js",
     "build:server": "NODE_ENV='production' webpack --config ./webpack.server.js",
-    "start": "npm run build:client && npm run build:server && node server.bundle.js"
+    "start": "npm run build:client && npm run build:server && node server.bundle.js",
+    "heroku-prebuild": "npm install --dev"
   },
   "repository": {
     "type": "git",
